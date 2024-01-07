@@ -1,0 +1,118 @@
+.hero-section{
+    background-image: url(https://img.freepik.com/free-photo/luxury-plain-green-gradient-abstract-studio-background-empty-room-with-space-your-text-picture_1258-102387.jpg?w=740&t=st=1704607094~exp=1704607694~hmac=536c0bdaddb3333f19d2e5e8a6c971ac343822524914cac4ac75b02f0fad737e);
+display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+    position: relative;
+}
+.hero-section .container{
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    padding: 0px 32px;
+    position: relative;
+    width: 180px;
+}
+.hero-section .row{
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    position: relative;
+    width: 1216px;
+
+}
+.hero-section .content{
+    align-items: flex-start;
+    display: flex;
+    flex : 0 0 auto;
+    flex-direction: column;
+    gap:32px;
+    position: relative;
+    width: 832px;
+}
+
+.hero-section .div{
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap : 16px;
+    position: relative;
+    width: 832px;
+}
+
+.hero-section .sub-heading{
+color: purple;
+ text-align: center;
+ font-size: 25px;
+ 
+ font-family: 'Times New Roman', Times, serif;
+ position:relative
+}
+.hero-section .title{
+    display: block;
+    color: black;
+    font-size: 75px;
+    
+    justify-content: left;
+}
+.hero-section .para-text {
+    color: black;
+    position: relative;
+    text-align: center;
+    width: 648px;
+    }
+.hero-section .content-2 { 
+        align-items: center; 
+        display: inline-flex;
+         flex: 0 0 auto;
+        flex-direction: column; 
+        gap: 16px;
+        position: relative;
+        }
+
+        .hero-section .action{
+            align-items: center;
+            display: flex;
+            flex: 0 0 auto;
+            justify-content: center;
+            position: relative;
+            width: 832px;
+        }
+        .hero-section .action .buttons-instance{
+            background-color: purple;
+            border-radius: 5px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .hero-section .action .buttons-instance{
+            font-size: 18px;
+        }
+        .hero-section .action .buttons-instance:hover{
+            transform: scale(1.09);
+            box-shadow: inset 0 0 0 2px #ffa7;
+            cursor: pointer;
+
+        }
+.hero-section .text-wrapper{
+    color:var(--neutral--400);
+    font-family: var(--h25-14-medium-font-family);
+    font-size: var(--h25-14-medium-font-size);
+    font-style: var(--h25-14-medium-font-style);
+    font-weight: var(--h25-14-medium-font-weight);
+    letter-spacing:var(--h25-14-medium-letter-spacing);
+    line-height:var(--h25-14-medium-line-height);
+    position: relative;
+    text-align: center;
+    width: 832px;
+
+}

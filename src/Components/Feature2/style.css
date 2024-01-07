@@ -1,0 +1,31 @@
+.continer{
+    display: flex;
+    justify-content: center;
+    padding: 25px 25px 25px 25px;
+}
+.continer .row .title{
+    color: black;
+    font-size: 75px;
+    position: relative;
+    text-align: center;
+}
+.continer .row .para-text{
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    color: black;
+    justify-content: center !important;
+    width: 648px;
+}
+.continer .row .buttons-instance{
+    background-color: purple;
+    border-radius: 10px;
+}
+.continer .row .buttons-instance:hover{
+    
+
+    transform: scale(1.09);
+    cursor: pointer;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+    
+}

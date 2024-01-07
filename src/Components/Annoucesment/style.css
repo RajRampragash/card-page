@@ -1,0 +1,23 @@
+.container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    
+ 
+}
+
+.container .content{
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 16px;
+    justify-content: right;
+    position: sticky;
+}
+.container.content.lable{
+    display: flex  !important;
+    text-align: center!important;
+    justify-content: center!important;
+}
