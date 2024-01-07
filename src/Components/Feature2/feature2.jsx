@@ -1,6 +1,8 @@
 import React from 'react'
 import { Box, Typography, Button } from '@mui/material';
-
+import "./style.css"
+import CreditCardIcon from '@mui/icons-material/CreditCard';
+import phone from '../../assests/phone.jpg'
 const Feature2 = () => {
   return (
     <div className='continer'>
@@ -27,7 +29,7 @@ const Feature2 = () => {
       }}
     >
       <Typography variant="h6" gutterBottom>
-        Spending 9349 visa card
+        Spending 9349 visa card <CreditCardIcon/>
       </Typography>
       <Typography variant="body1" gutterBottom>
         127.14 USD vs last week
@@ -41,11 +43,12 @@ const Feature2 = () => {
       <Typography variant="body1" gutterBottom>
         1000 USD
       </Typography>
-      <Box sx={{ display: 'flex', justifyContent: 'center', marginTop: 2 }}>
-        <Button variant="contained" color="primary">
-          X 5000 USD
+      <Box sx={{ display: 'flex', justifyContent: 'center', marginTop: 2}}>
+        <Button variant="contained" color="primary" >
+          get- 5000 USD
         </Button>
       </Box>
+      <img style={{width:450}} src={phone} alt='phone'></img>
     </Box>
     </div>
   )
