@@ -13,7 +13,7 @@ const Hero = () => {
                             <p className='title'>
                                 Unleashing the Next Genration of Card Solutions 
                             </p>
-                            <p className='para-text'>
+                            <p className='para-text' style={{marginLeft:'50px', marginRight:'50px'}}>
                                 consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Uteim 
                                 ad minim veniam, quis nostrud
                             </p>
